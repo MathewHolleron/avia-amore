@@ -10,6 +10,7 @@ body {
   padding: 1rem;
   background-color: rgb(245, 231, 225);
   height: 100vh;
+  
 }
 
 /* header */
@@ -71,3 +72,18 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+@media screen and (max-width: 768px){
+  .airplane-card{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0% 0% 5% 0%;
+    align-content: stretch;
+    width:100%;
+  }
+  header{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
